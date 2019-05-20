@@ -39,5 +39,6 @@ public class LaunchBrowser {
 		System.out.println("Done");
 		driver.close();
 		System.out.println("Close");
+		System.out.println();
 	}
 }
