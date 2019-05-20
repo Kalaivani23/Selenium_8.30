@@ -36,5 +36,6 @@ public class LaunchBrowser {
 		File dec = new File("G:\\ScreenShots\\fb.jpeg");
 		FileUtils.copyFile(src, dec);
 		driver.quit();
+		System.out.println("Done");
 	}
 }
