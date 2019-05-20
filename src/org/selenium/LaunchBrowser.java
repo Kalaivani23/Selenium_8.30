@@ -37,5 +37,7 @@ public class LaunchBrowser {
 		FileUtils.copyFile(src, dec);
 		driver.quit();
 		System.out.println("Done");
+		driver.close();
+		System.out.println("Close");
 	}
 }
